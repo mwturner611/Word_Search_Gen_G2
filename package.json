@@ -1,0 +1,22 @@
+{
+  "name": "word_search_gen_g2",
+  "version": "1.0.0",
+  "description": "A word search generator app with JQUERY, BOOTSTRAP and Ajax",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwturner611/Word_Search_Gen_G2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwturner611/Word_Search_Gen_G2/issues"
+  },
+  "homepage": "https://github.com/mwturner611/Word_Search_Gen_G2#readme",
+  "devDependencies": {
+    "sass": "^1.29.0"
+  }
+}
