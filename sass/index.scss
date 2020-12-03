@@ -1,0 +1,92 @@
+// bring in a partial to use
+// @import 'default';
+
+// create variables
+$primary-margin: 5px;
+$primary-padding: 10px;
+$primary-text-align: center;
+
+// use variables
+// body{
+//     background-color: $primary-color;
+//     font-family: $primary-font;
+// }
+
+.container-flex{
+    background-color: lightblue;
+    margin: $primary-margin;
+    padding: $primary-padding;
+    text-align: $primary-text-align;
+}
+// nesting
+// .container{
+//     width: 100%;
+//     height: 100%;
+//     nav{
+//         ul{
+//             li{
+//                 &:nth-child(1){
+//                     font-size: 1em;
+//                 }
+//                 &:nth-child(2){
+//                     font-size: 2em;
+//                 }
+                
+//             }
+//         }
+//         a{
+//             text-decoration: none;
+//         }
+//     }
+// };
+
+
+// mixin magic
+// @mixin transform_Me($prop1,$prop2){
+//     widows: $prop1;
+//     height: $prop2;
+//     background-color: yellow;
+// }
+
+// call the mixin with @include
+// .transform{
+//     @include transform_Me(400px,500px)
+// }
+
+// extend setup
+// %extend-border{
+//     border: 1px solid #ccc;
+//     padding: 10px;
+//     color: #333;
+// }
+
+// use the extend-border properties on .border class
+// .border{
+//     @extend %extend-border;
+// }
+
+// pseudo selector - how to use things like hover.  hover is for a tag
+// .element{
+//     a{
+//         text-decoration: none;
+//         color: black;
+//         &:hover{
+//             color:white;
+//         }
+//     }
+// }
+
+// can multiply, add or subtract.  Only use unit in first #
+// .example{
+//     font-size:2px+2;
+    
+//     width:20% * 5;
+
+//     height: (24px/4)
+// }
+
+// p {
+//     &:before{
+//         content:"I am a string" +" "+ quote;
+//     }
+// }
