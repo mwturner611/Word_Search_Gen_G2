@@ -21,11 +21,25 @@
                 <h1>Word Search Generator</h1>
             </div>
         </div>
+
+        <div class="row">
+            <div class='col-sm-1'></div>
+            <div class="col-lg-10">
+                <h3 id='smallHeader'>Enter your search words!</h3>
+                <p id='instructions'>Please enter your "search words" in the boxes below and then press submit to create your wordsearch!</p>
+            </div>
+            <div class='col-sm-1'></div>
+        </div>
         
         <div class="row">
+            <div class="col-12">
+            
+                <label>Puzzle Title:</label>
+                <input type="text" class="inputs" id="titleWord" name="titleWord" placeholder="Enter title here">
+            </div>
             <form class="form-group">
-                <!-- <div style="background-color:red;" class="col-sm-2"></div> -->
-                <div class="col-md-6">
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
 
                     <label>1.</label>
                     <input type="text" class="inputs" id="word1" name="word1" placeholder="Enter word here"><br>
@@ -42,7 +56,7 @@
                     <label>5.</label>
                     <input type="text" class="inputs" id="word5" name="word5" placeholder="Enter word here">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <label>6.</label>
                     <input type="text" class="inputs" id="word6" name="word6" placeholder="Enter word here"><br>
 
@@ -58,22 +72,16 @@
                     <label>10.</label>
                     <input type="text" class="inputs" id="word10" name="word10" placeholder="Enter word here">
                 </div>
-                <!-- <div style="background-color:red;" class="col-sm-2"></div> -->
+                <div class="col-md-2"></div>
                 
             </form>
         </div>
 
         <div class="row">
-            <div class="col-lg-12">
+                <button id="submit" class="btn" type="button">Submit</button>
 
-                <button id="submit" type="button">Submit</button>
-
-                <button id="reset" type="button">Reset</button>
-
-            </div>
+                <button id="reset" class="btn" type="button">Reset</button>
         </div>
-
-        
 
       </div>
 
@@ -81,5 +89,6 @@
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="../scripts/index.js"></script>
   </body>
 </html>

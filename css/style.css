@@ -1,8 +1,26 @@
-.container-flex {
+.row button {
+  margin: 10px;
+  border-radius: 4px;
+  padding: 5px;
+  width: 15%;
+}
+
+body {
   background-color: lightblue;
+}
+
+.container-flex {
   margin: 5px;
   padding: 10px;
   text-align: center;
+}
+
+.row button:nth-child(1) {
+  background-color: darkcyan;
+  color: whitesmoke;
+}
+.row button:nth-child(2) {
+  background-color: #ebeb92;
 }
 
 /*# sourceMappingURL=style.css.map */

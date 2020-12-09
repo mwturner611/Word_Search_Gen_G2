@@ -5,19 +5,37 @@
 $primary-margin: 5px;
 $primary-padding: 10px;
 $primary-text-align: center;
+$text-color: whitesmoke;
 
-// use variables
-// body{
-//     background-color: $primary-color;
-//     font-family: $primary-font;
-// }
+%button-style{
+    margin: 10px;
+    border-radius: 4px;
+    padding: 5px;
+    width: 15%;
+}
 
-.container-flex{
+body {
     background-color: lightblue;
+}
+.container-flex{
     margin: $primary-margin;
     padding: $primary-padding;
     text-align: $primary-text-align;
 }
+
+.row {
+    button{
+        &:nth-child(1){
+            background-color: darkcyan;
+            color: $text-color;
+        }
+        &:nth-child(2){
+            background-color: rgb(235,235,146);
+        }
+        @extend %button-style;
+    }
+}
+
 // nesting
 // .container{
 //     width: 100%;
